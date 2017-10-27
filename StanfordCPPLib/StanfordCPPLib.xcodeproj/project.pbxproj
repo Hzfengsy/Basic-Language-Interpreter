@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		84D3D02C1EE649A500F73931 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		84D3D02D1EE649A500F73931 /* console.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = console.cpp; sourceTree = "<group>"; };
+		84D3D02E1EE649A500F73931 /* console.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = console.h; sourceTree = "<group>"; };
+		84D3D02F1EE649A500F73931 /* direction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = direction.cpp; sourceTree = "<group>"; };
+		84D3D0301EE649A500F73931 /* direction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = direction.h; sourceTree = "<group>"; };
+		84D3D0311EE649A500F73931 /* error.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = error.cpp; sourceTree = "<group>"; };
+		84D3D0321EE649A500F73931 /* error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		84D3D0331EE649A500F73931 /* filelib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = filelib.cpp; sourceTree = "<group>"; };
+		84D3D0341EE649A500F73931 /* filelib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = filelib.h; sourceTree = "<group>"; };
+		84D3D0351EE649A500F73931 /* foreach.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = foreach.h; sourceTree = "<group>"; };
+		84D3D0361EE649A500F73931 /* gevents.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gevents.cpp; sourceTree = "<group>"; };
+		84D3D0371EE649A500F73931 /* gevents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gevents.h; sourceTree = "<group>"; };
+		84D3D0381EE649A500F73931 /* ginteractors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ginteractors.cpp; sourceTree = "<group>"; };
+		84D3D0391EE649A500F73931 /* ginteractors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ginteractors.h; sourceTree = "<group>"; };
+		84D3D03A1EE649A500F73931 /* gmath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gmath.cpp; sourceTree = "<group>"; };
+		84D3D03B1EE649A500F73931 /* gmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gmath.h; sourceTree = "<group>"; };
+		84D3D03C1EE649A500F73931 /* gobjects.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gobjects.cpp; sourceTree = "<group>"; };
+		84D3D03D1EE649A500F73931 /* gobjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gobjects.h; sourceTree = "<group>"; };
+		84D3D03E1EE649A500F73931 /* graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		84D3D03F1EE649A500F73931 /* grid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = grid.h; sourceTree = "<group>"; };
+		84D3D0401EE649A500F73931 /* gtimer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gtimer.cpp; sourceTree = "<group>"; };
+		84D3D0411EE649A500F73931 /* gtimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gtimer.h; sourceTree = "<group>"; };
+		84D3D0421EE649A500F73931 /* gtypes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gtypes.cpp; sourceTree = "<group>"; };
+		84D3D0431EE649A500F73931 /* gtypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gtypes.h; sourceTree = "<group>"; };
+		84D3D0441EE649A500F73931 /* gwindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gwindow.cpp; sourceTree = "<group>"; };
+		84D3D0451EE649A500F73931 /* gwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gwindow.h; sourceTree = "<group>"; };
+		84D3D0461EE649A500F73931 /* hashmap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hashmap.cpp; sourceTree = "<group>"; };
+		84D3D0471EE649A500F73931 /* hashmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hashmap.h; sourceTree = "<group>"; };
+		84D3D0481EE649A500F73931 /* hashset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hashset.h; sourceTree = "<group>"; };
+		84D3D0491EE649A500F73931 /* lexicon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lexicon.cpp; sourceTree = "<group>"; };
+		84D3D04A1EE649A500F73931 /* lexicon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lexicon.h; sourceTree = "<group>"; };
+		84D3D04B1EE649A500F73931 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		84D3D04C1EE649A500F73931 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		84D3D04D1EE649A500F73931 /* map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		84D3D04E1EE649A500F73931 /* platform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = platform.cpp; sourceTree = "<group>"; };
+		84D3D04F1EE649A500F73931 /* platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		84D3D0501EE649A500F73931 /* point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = "<group>"; };
+		84D3D0511EE649A500F73931 /* point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = point.h; sourceTree = "<group>"; };
+		84D3D0521EE649A500F73931 /* pqueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		84D3D0531EE649A500F73931 /* private */ = {isa = PBXFileReference; lastKnownFileType = folder; path = private; sourceTree = "<group>"; };
+		84D3D0541EE649A500F73931 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		84D3D0551EE649A500F73931 /* random.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = random.cpp; sourceTree = "<group>"; };
+		84D3D0561EE649A500F73931 /* random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		84D3D0571EE649A500F73931 /* set.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = set.h; sourceTree = "<group>"; };
+		84D3D0581EE649A500F73931 /* simpio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = simpio.cpp; sourceTree = "<group>"; };
+		84D3D0591EE649A500F73931 /* simpio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simpio.h; sourceTree = "<group>"; };
+		84D3D05A1EE649A500F73931 /* sound.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sound.cpp; sourceTree = "<group>"; };
+		84D3D05B1EE649A500F73931 /* sound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sound.h; sourceTree = "<group>"; };
+		84D3D05C1EE649A500F73931 /* spl.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = spl.jar; sourceTree = "<group>"; };
+		84D3D05D1EE649A500F73931 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		84D3D05E1EE649A500F73931 /* startup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = startup.cpp; sourceTree = "<group>"; };
+		84D3D05F1EE649A500F73931 /* strlib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = strlib.cpp; sourceTree = "<group>"; };
+		84D3D0601EE649A500F73931 /* strlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = strlib.h; sourceTree = "<group>"; };
+		84D3D0611EE649A500F73931 /* thread.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = thread.cpp; sourceTree = "<group>"; };
+		84D3D0621EE649A500F73931 /* thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		84D3D0631EE649A500F73931 /* tokenscanner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tokenscanner.cpp; sourceTree = "<group>"; };
+		84D3D0641EE649A500F73931 /* tokenscanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tokenscanner.h; sourceTree = "<group>"; };
+		84D3D0651EE649A500F73931 /* tplatform-posix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "tplatform-posix.cpp"; sourceTree = "<group>"; };
+		84D3D0661EE649A500F73931 /* tplatform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tplatform.cpp; sourceTree = "<group>"; };
+		84D3D0671EE649A500F73931 /* vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		84D3D0261EE649A500F73931 = {
+			isa = PBXGroup;
+			children = (
+				84D3D02C1EE649A500F73931 /* .DS_Store */,
+				84D3D02D1EE649A500F73931 /* console.cpp */,
+				84D3D02E1EE649A500F73931 /* console.h */,
+				84D3D02F1EE649A500F73931 /* direction.cpp */,
+				84D3D0301EE649A500F73931 /* direction.h */,
+				84D3D0311EE649A500F73931 /* error.cpp */,
+				84D3D0321EE649A500F73931 /* error.h */,
+				84D3D0331EE649A500F73931 /* filelib.cpp */,
+				84D3D0341EE649A500F73931 /* filelib.h */,
+				84D3D0351EE649A500F73931 /* foreach.h */,
+				84D3D0361EE649A500F73931 /* gevents.cpp */,
+				84D3D0371EE649A500F73931 /* gevents.h */,
+				84D3D0381EE649A500F73931 /* ginteractors.cpp */,
+				84D3D0391EE649A500F73931 /* ginteractors.h */,
+				84D3D03A1EE649A500F73931 /* gmath.cpp */,
+				84D3D03B1EE649A500F73931 /* gmath.h */,
+				84D3D03C1EE649A500F73931 /* gobjects.cpp */,
+				84D3D03D1EE649A500F73931 /* gobjects.h */,
+				84D3D03E1EE649A500F73931 /* graph.h */,
+				84D3D03F1EE649A500F73931 /* grid.h */,
+				84D3D0401EE649A500F73931 /* gtimer.cpp */,
+				84D3D0411EE649A500F73931 /* gtimer.h */,
+				84D3D0421EE649A500F73931 /* gtypes.cpp */,
+				84D3D0431EE649A500F73931 /* gtypes.h */,
+				84D3D0441EE649A500F73931 /* gwindow.cpp */,
+				84D3D0451EE649A500F73931 /* gwindow.h */,
+				84D3D0461EE649A500F73931 /* hashmap.cpp */,
+				84D3D0471EE649A500F73931 /* hashmap.h */,
+				84D3D0481EE649A500F73931 /* hashset.h */,
+				84D3D0491EE649A500F73931 /* lexicon.cpp */,
+				84D3D04A1EE649A500F73931 /* lexicon.h */,
+				84D3D04B1EE649A500F73931 /* main.cpp */,
+				84D3D04C1EE649A500F73931 /* Makefile */,
+				84D3D04D1EE649A500F73931 /* map.h */,
+				84D3D04E1EE649A500F73931 /* platform.cpp */,
+				84D3D04F1EE649A500F73931 /* platform.h */,
+				84D3D0501EE649A500F73931 /* point.cpp */,
+				84D3D0511EE649A500F73931 /* point.h */,
+				84D3D0521EE649A500F73931 /* pqueue.h */,
+				84D3D0531EE649A500F73931 /* private */,
+				84D3D0541EE649A500F73931 /* queue.h */,
+				84D3D0551EE649A500F73931 /* random.cpp */,
+				84D3D0561EE649A500F73931 /* random.h */,
+				84D3D0571EE649A500F73931 /* set.h */,
+				84D3D0581EE649A500F73931 /* simpio.cpp */,
+				84D3D0591EE649A500F73931 /* simpio.h */,
+				84D3D05A1EE649A500F73931 /* sound.cpp */,
+				84D3D05B1EE649A500F73931 /* sound.h */,
+				84D3D05C1EE649A500F73931 /* spl.jar */,
+				84D3D05D1EE649A500F73931 /* stack.h */,
+				84D3D05E1EE649A500F73931 /* startup.cpp */,
+				84D3D05F1EE649A500F73931 /* strlib.cpp */,
+				84D3D0601EE649A500F73931 /* strlib.h */,
+				84D3D0611EE649A500F73931 /* thread.cpp */,
+				84D3D0621EE649A500F73931 /* thread.h */,
+				84D3D0631EE649A500F73931 /* tokenscanner.cpp */,
+				84D3D0641EE649A500F73931 /* tokenscanner.h */,
+				84D3D0651EE649A500F73931 /* tplatform-posix.cpp */,
+				84D3D0661EE649A500F73931 /* tplatform.cpp */,
+				84D3D0671EE649A500F73931 /* vector.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		84D3D02B1EE649A500F73931 /* StanfordCPPLib */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 84D3D0681EE649A500F73931 /* Build configuration list for PBXLegacyTarget "StanfordCPPLib" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/fengsiyuan/Onedrive/OI/SJTU/Basic/StanfordCPPLib;
+			dependencies = (
+			);
+			name = StanfordCPPLib;
+			passBuildSettingsInEnvironment = 1;
+			productName = StanfordCPPLib;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		84D3D0271EE649A500F73931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 84D3D02A1EE649A500F73931 /* Build configuration list for PBXProject "StanfordCPPLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84D3D0261EE649A500F73931;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D3D02B1EE649A500F73931 /* StanfordCPPLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		84D3D0281EE649A500F73931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		84D3D0291EE649A500F73931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		84D3D0691EE649A500F73931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = StanfordCPPLib;
+			};
+			name = Debug;
+		};
+		84D3D06A1EE649A500F73931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = StanfordCPPLib;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D3D02A1EE649A500F73931 /* Build configuration list for PBXProject "StanfordCPPLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3D0281EE649A500F73931 /* Debug */,
+				84D3D0291EE649A500F73931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D3D0681EE649A500F73931 /* Build configuration list for PBXLegacyTarget "StanfordCPPLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3D0691EE649A500F73931 /* Debug */,
+				84D3D06A1EE649A500F73931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D3D0271EE649A500F73931 /* Project object */;
+}
