@@ -26,6 +26,7 @@ spl.jar:
 	ln -s StanfordCPPLib/spl.jar .
 
 tidy:
+	(cd StanfordCPPLib; make clean)
 	rm -f ,* .,* *~ core a.out *.err
 
 clean scratch: tidy
